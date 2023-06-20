@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 20px;
+        }
+
+        .main-nav1 {
+            background-color: #f8f9fa;
+            padding: 10px;
+            margin-bottom: 20px;
+            list-style: none;
+        }
+
+        .main-nav1 li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .main-nav1 li a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="main-nav1">
+            <li><a href="InicioArticulosdepesca.html">Home</a></li>
+            <li><a href="ContactoArticulodepesca.html">Contacto</a></li>
+            <li><a href="Nosotros.html">Nosotros</a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre">
+            </div>
+            <div class="form-group">
+                <label for="asunto">Asunto:</label>
+                <input type="text" class="form-control" id="asunto" name="asunto">
+            </div>
+            <div class="form-group">
+                <label for="comentario">Comentario:</label>
+                <textarea class="form-control" id="comentario" name="comentario" rows="4"
+                    placeholder="Escribir Aquí"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" class="form-control" id="telefono" name="telefono" minlength="8" maxlength="9"
+                    required>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
